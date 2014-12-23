@@ -31,5 +31,5 @@ In Terminal:
 
     \curl -sSL https://get.rvm.io | bash -s stable --rails
 
-Yes, you need that whole line, including the backslash (\) at the beginning.
+Yes, you need that whole line, including the backslash at the beginning.
 
