@@ -15,5 +15,21 @@ Then, follow the instructions below, based on your platform.
 
 Step 0! Make sure that your Mac is running Mac OS X 10.9 (Mavericks) or later. **If it isn't, please upgrade before continuing.**
 
+Remember Terminal? The application on your Mac that allows you to type command-line instructions? (It's at Applications -> Utilities -> Terminal)... open it up.
 
+### Install Homebrew
+
+Homebrew is a command-line tool that allows for easy installation of software packages from source. It comes with a straightforward one-line install script. If it asks you to install Xcode command-line tools, say yes.
+
+In Terminal:
+
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    
+### Install Ruby
+
+In Terminal:
+
+  \curl -sSL https://get.rvm.io | bash -s stable --rails
+
+Yes, you need that whole line, including the backslash (\) at the beginning.
 
