@@ -21,7 +21,7 @@ Remember Terminal? The application on your Mac that allows you to type command-l
 
 Homebrew is a command-line tool that allows for easy installation of software packages from source. It comes with a straightforward one-line install script. If it asks you to install Xcode command-line tools, say yes.
 
-In Terminal:
+In Terminal, copy-and-paste the following line and hit return:
 
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     
@@ -31,7 +31,7 @@ In Terminal:
 
     \curl -sSL https://get.rvm.io | bash -s stable --rails
 
-Yes, you need that whole line, including the backslash at the beginning.
+Yes, you need that whole line, including the backslash at the beginning. This takes a while, so grab your favorite frosty beverage for this one.
 
 If everything goes well, you should be able to issue the following command:
 
