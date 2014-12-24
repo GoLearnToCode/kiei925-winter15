@@ -45,6 +45,12 @@ And get back something like:
 
 Step 0! Make sure that your PC is running Windows 7 or later. **If it isn't, please upgrade before continuing.**
 
-We'll use an application called RailsInstaller...
+We'll use an application called RailsInstaller to install everything necessary for Rails development. Download the following file and run the installer. Be sure to accept all the defaults when installing (don't change the path or un-check any of the options).
 
 https://s3.amazonaws.com/railsinstaller/Windows/railsinstaller-3.1.0.exe
+
+When the install is complete, there will be a new application installed on your machine called "Command Prompt with Ruby and Rails". Run this program, and you'll be greeted with a command prompt. Enter the following command and hit return:
+
+    gem update --system
+    
+
