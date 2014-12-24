@@ -33,3 +33,12 @@ In Terminal:
 
 Yes, you need that whole line, including the backslash at the beginning.
 
+If everything goes well, you should be able to issue the following command:
+
+    rails -v
+    
+And get back something like:
+
+    Rails 4.2.0
+    
+
