@@ -41,4 +41,10 @@ And get back something like:
 
     Rails 4.2.0
     
+# For Windows Users
 
+Step 0! Make sure that your PC is running Windows 7 or later. **If it isn't, please upgrade before continuing.**
+
+We'll use an application called RailsInstaller...
+
+https://s3.amazonaws.com/railsinstaller/Windows/railsinstaller-3.1.0.exe
