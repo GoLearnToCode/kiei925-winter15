@@ -7,7 +7,7 @@ Before you begin, make sure that:
 - You have a Github account and have installed the Github app
 - You have Sublime Text 3 installed
 
-(If you're using the same computer you used for KIEI-924, you're already set)
+If you're using the same computer you used for KIEI-924, you're already set. If you have no idea what I'm talking about, check [the setup instructions for KIEI-924](http://golearntocode.com/kiei924-winter15-ev/workbook/setup).
 
 Then, follow the instructions below, based on your platform.
 
