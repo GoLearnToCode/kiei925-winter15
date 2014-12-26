@@ -51,8 +51,8 @@ https://s3.amazonaws.com/railsinstaller/Windows/railsinstaller-3.1.0.exe
 
 When the install is complete, there will be a new application installed on your machine called "Command Prompt with Ruby and Rails". Run this program, and you'll be greeted with a command prompt. Enter the following commands, hitting return after each one:
 
-    gem sources remove https://rubygems.org/
     gem sources add http://rubygems.org/
+    gem sources remove https://rubygems.org/
     gem update --system
     
 If everything goes well, you should be able to issue the following command:
