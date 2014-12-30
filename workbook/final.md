@@ -2,7 +2,7 @@
 
 Every student is required to turn in a Ruby on Rails web application. You're highly encouraged to work in study groups, but each student must turn in their own project.
 
-Due Date: Monday, March 16, 11:59pm
+** Due Date: Monday, March 16, 11:59pm
 
 Late work cannot be accepted.
 
