@@ -73,41 +73,41 @@ Model attributes are implemented as table columns.  So from now on, we will use 
     </tr>
   </thead>
   <tbody>
-      <tr>
-        <td>integer</td>
-        <td>An integer</td>
-        <td>Good for row identifiers, prices, and simple numbers</td>
-      </tr>
-      <tr>
-        <td>string</td>
-        <td>Short text up to 250 characters</td>
-        <td>Good for a headline, title, or tweet</td>
-      </tr>
-      <tr>
-        <td>text</td>
-        <td>Long text, up to 2Gb</td>
-        <td>An entire article or book</td>
-      </tr>
-      <tr>
-        <td>boolean</td>
-        <td><b>true</b> or <b>false</b></td>
-        <td>Good for checkboxes, on/off states, yes/no answers, etc.</td>
-      </tr>
-      <tr>
-        <td>datetime</td>
-        <td>A date with a timestamp</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>date</td>
-        <td>Just the date</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>float</td>
-        <td>A number with decimal point</td>
-        <td>If you need non-integer numerical values</td>
-      </tr>
+    <tr>
+      <td>integer</td>
+      <td>An integer</td>
+      <td>Good for row identifiers, prices, and simple numbers</td>
+    </tr>
+    <tr>
+      <td>string</td>
+      <td>Short text up to 250 characters</td>
+      <td>Good for a headline, title, or tweet</td>
+    </tr>
+    <tr>
+      <td>text</td>
+      <td>Long text, up to 2Gb</td>
+      <td>An entire article or book</td>
+    </tr>
+    <tr>
+      <td>boolean</td>
+      <td><b>true</b> or <b>false</b></td>
+      <td>Good for checkboxes, on/off states, yes/no answers, etc.</td>
+    </tr>
+    <tr>
+      <td>datetime</td>
+      <td>A date with a timestamp</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>date</td>
+      <td>Just the date</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>float</td>
+      <td>A number with decimal point</td>
+      <td>If you need non-integer numerical values</td>
+    </tr>
   </tbody>
 </table>
 
