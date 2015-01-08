@@ -72,41 +72,69 @@ Model attributes are implemented as table columns.  So from now on, we will use 
       <th>Notes</th>
     </tr>
   </thead>
+</table>
+
+### Example: Data Tables for imdb.com (initial version)
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <td colspan="5" style="background: #fffbce">movies</td>
+    </tr>
+    <tr>
+      <th>id<br>(integer)</th>
+      <th>title<br>(string)</th>
+      <th>director_id<br>(integer)</th>
+      <th>year<br>(integer)</th>
+      <th>synopsis<br>(text)</th>
+    </tr>
+  </thead>
   <tbody>
     <tr>
-      <td>integer</td>
-      <td>An integer</td>
-      <td>Good for row identifiers, prices, and simple numbers</td>
+      <td>1</td>
+      <td>Raiders of the Lost Ark</td>
+      <td>2</td>
+      <td>1983</td>
+      <td>I hate rats.</td>
     </tr>
     <tr>
-      <td>string</td>
-      <td>Short text up to 250 characters</td>
-      <td>Good for a headline, title, or tweet</td>
+      <td>2</td>
+      <td>Apollo 13</td>
+      <td>1</td>
+      <td>1995</td>
+      <td>Wonderful documentary about computers, people, and error messages.</td>
     </tr>
     <tr>
-      <td>text</td>
-      <td>Long text, up to 2Gb</td>
-      <td>An entire article or book</td>
+      <td>3</td>
+      <td>Lincoln</td>
+      <td>2</td>
+      <td>2012</td>
+      <td>He dies at the end.  (Oops, should have said "spoiler alert")</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <td colspan="5" style="background: #fffbce">directors</td>
     </tr>
     <tr>
-      <td>boolean</td>
-      <td><b>true</b> or <b>false</b></td>
-      <td>Good for checkboxes, on/off states, yes/no answers, etc.</td>
+      <th>id<br>(integer)</th>
+      <th>name<br>(string)</th>
+      <th>photo_url<br>(string)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Ron Howard</td>
+      <td>http://ia.media-imdb.com/images/M/MV5BMTkzMDczMjUxNF5BMl5BanBnXkFtZTcwODY1Njk5Mg@@._V1_SX214_CR0,0,214,317_.jpg</td>
     </tr>
     <tr>
-      <td>datetime</td>
-      <td>A date with a timestamp</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>date</td>
-      <td>Just the date</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>float</td>
-      <td>A number with decimal point</td>
-      <td>If you need non-integer numerical values</td>
+      <td>2</td>
+      <td>Steven Spielberg</td>
+      <td>http://ia.media-imdb.com/images/M/MV5BMTY1NjAzNzE1MV5BMl5BanBnXkFtZTYwNTk0ODc0._V1_SX214_CR0,0,214,317_.jpg</td>
     </tr>
   </tbody>
 </table>
