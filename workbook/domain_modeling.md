@@ -59,7 +59,6 @@ While there exist several plausible approaches to model and attribute representa
 
 Model attributes are implemented as table columns.  So from now on, we will use the words _column_ and _attribute_ interchangably.
 
-
 ### Column Types You Can Use
 
 <table class="table table-bordered">
@@ -108,74 +107,6 @@ Model attributes are implemented as table columns.  So from now on, we will use 
       <td>float</td>
       <td>A number with decimal point</td>
       <td>If you need non-integer numerical values</td>
-    </tr>
-  </tbody>
-</table>
-
-
-### Example: Data Tables for imdb.com (initial version)
-
-
-<table class="table table-bordered">
-  <thead>
-    <tr>
-      <td colspan="5" style="background: #fffbce">movies</td>
-    </tr>
-    <tr>
-      <th>id<br>(integer)</th>
-      <th>title<br>(string)</th>
-      <th>director_id<br>(integer)</th>
-      <th>year<br>(integer)</th>
-      <th>synopsis<br>(text)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>Raiders of the Lost Ark</td>
-      <td>2</td>
-      <td>1983</td>
-      <td>I hate rats.</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Apollo 13</td>
-      <td>1</td>
-      <td>1995</td>
-      <td>Wonderful documentary about computers, people, and error messages.</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>Lincoln</td>
-      <td>2</td>
-      <td>2012</td>
-      <td>He dies at the end.  (Oops, should have said "spoiler alert")</td>
-    </tr>
-  </tbody>
-</table>
-
-
-<table class="table table-bordered">
-  <thead>
-    <tr>
-      <td colspan="5" style="background: #fffbce">directors</td>
-    </tr>
-    <tr>
-      <th>id<br>(integer)</th>
-      <th>name<br>(string)</th>
-      <th>photo_url<br>(string)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>Ron Howard</td>
-      <td>http://ia.media-imdb.com/images/M/MV5BMTkzMDczMjUxNF5BMl5BanBnXkFtZTcwODY1Njk5Mg@@._V1_SX214_CR0,0,214,317_.jpg</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Steven Spielberg</td>
-      <td>http://ia.media-imdb.com/images/M/MV5BMTY1NjAzNzE1MV5BMl5BanBnXkFtZTYwNTk0ODc0._V1_SX214_CR0,0,214,317_.jpg</td>
     </tr>
   </tbody>
 </table>
