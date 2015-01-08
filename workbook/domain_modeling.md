@@ -4,9 +4,9 @@ When we build an app, we represent real-world entities inside the virtualized wo
 
 Identifying all of the real-world things that our software must contain is harder than it sounds.  But here's the good news.  We do not have to figure out our entire domain model up front.  Instead, we start by identifying only those entities that are most central and most obvious to our application.  Identifying the first few models is more than enough to begin the initial version of our app.
 
-From now on, we will call each real-world entity a __model__.
+From now on, we will call each real-world entity a _model_.
 
-And all of our models, together with all of their relationships, is called our __domain model__.
+And all of our models, together with all of their relationships, is called our _domain model_.
 
 ### Models and Their Attributes
 
@@ -38,8 +38,8 @@ Hopefully you're getting the idea that to start building our domain model, we id
 
 A model and its attributes can be neatly represented in a _database table_.  If you're familiar with an Excel spreadsheet, then you already know what a database table is: a set of rows and columns.
 
-* Each column represents a particular model __attribute
-* Each row represents a unique model __instance__
+* Each column represents a particular model _attribute_
+* Each row represents a unique model _instance_
 * All rows share exactly the same set of columns
 
 Each model will need a different table, because the column definitions will be different for every model.
