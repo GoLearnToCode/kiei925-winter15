@@ -59,6 +59,7 @@ While there exist several plausible approaches to model and attribute representa
 
 Model attributes are implemented as table columns.  So from now on, we will use the words _column_ and _attribute_ interchangably.
 
+
 ### Column Types You Can Use
 
 <table class="table table-bordered">
@@ -113,6 +114,7 @@ Model attributes are implemented as table columns.  So from now on, we will use 
 
 
 ### Example: Data Tables for imdb.com (initial version)
+
 
 <table class="table table-bordered">
   <thead>
