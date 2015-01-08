@@ -64,6 +64,9 @@ Model attributes are implemented as table columns.  So from now on, we will use 
 <table class="table table-bordered">
   <thead>
     <tr>
+      <td colspan="3" style="background: #c5ffe0">Column Data Types</td>
+    </tr>
+    <tr>
       <th>Type</th>
       <th>Description</th>
       <th>Notes</th>
