@@ -111,6 +111,7 @@ Model attributes are implemented as table columns.  So from now on, we will use 
   </tbody>
 </table>
 
+
 ### Example: Data Tables for imdb.com (initial version)
 
 <table class="table table-bordered">
@@ -150,6 +151,7 @@ Model attributes are implemented as table columns.  So from now on, we will use 
     </tr>
   </tbody>
 </table>
+
 
 <table class="table table-bordered">
   <thead>
