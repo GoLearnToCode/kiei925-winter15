@@ -111,7 +111,45 @@ Model attributes are implemented as table columns.  So from now on, we will use 
   </tbody>
 </table>
 
+### Example: Data Tables for imdb.com (initial version)
 
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <td colspan="5" style="background: #fffbce">movies</td>
+    </tr>
+    <tr>
+      <th>id<br>(integer)</th>
+      <th>title<br>(string)</th>
+      <th>director_id<br>(integer)</th>
+      <th>year<br>(integer)</th>
+      <th>synopsis<br>(text)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Raiders of the Lost Ark</td>
+      <td>2</td>
+      <td>1983</td>
+      <td>I hate rats.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Apollo 13</td>
+      <td>1</td>
+      <td>1995</td>
+      <td>Wonderful documentary about computers, people, and error messages.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Lincoln</td>
+      <td>2</td>
+      <td>2012</td>
+      <td>He dies at the end.  (Oops, should have said "spoiler alert")</td>
+    </tr>
+  </tbody>
+</table>
 
 <table class="table table-bordered">
   <thead>
