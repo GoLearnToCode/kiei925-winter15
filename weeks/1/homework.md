@@ -3,7 +3,8 @@
 ### Start on Your Final Project
 
 - Pick an app idea
-- Create a folder in your code directory called **stories**
+- Create a folder in your code directory called **week1**
 - Add a README.md file, writing at least 5 user stories for your app - see https://github.com/kiei925-winter15/stories for an example
-- Commit and push your changes so that I can grab your user stories from ```http://github.com/<your username>/stories```
+- Create a domain model (in Excel) for your app – at least 3 models – and add the Excel file to your **week1** folder
+- Commit and push your changes so that I can grab your user stories and domain model from ```http://github.com/<your username>/week1```
     
