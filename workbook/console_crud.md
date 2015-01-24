@@ -74,7 +74,7 @@ irb(main):001:0>
 Adding new rows to a model's data table is pretty easy.  We just use the `.create` method on our model class, and provide a *hash* of data that assigns cell values for each column in our new row.
 
 ``` ruby
-irb(main):001:0> Book.create("title" => "Sherlock Holmes", "author" => "Arthur Conan Doyle")
+irb(main):001:0> Book.create(title: "Sherlock Holmes", author: "Arthur Conan Doyle")
    (0.1ms)  begin transaction
   SQL (0.4ms)  INSERT INTO "books" ("title") VALUES (?)  [["title", "Sherlock Holmes"]]
    (1.1ms)  commit transaction
