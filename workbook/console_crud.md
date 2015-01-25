@@ -78,7 +78,7 @@ irb(main):001:0> Book.create(title: "Sherlock Holmes", author: "Arthur Conan Doy
    (0.1ms)  begin transaction
   SQL (0.4ms)  INSERT INTO "books" ("title") VALUES (?)  [["title", "Sherlock Holmes"]]
    (1.1ms)  commit transaction
-=> #<Book {"id"=>3, "title"=>"Sherlock Holmes", "summary"=>nil, "author_id"=>nil, "hardcover"=>nil}>
+=> #<Book {"id"=>3, "title"=>"Sherlock Holmes", "summary"=>nil, "author"=>"Arthur Conan Doyle", "hardcover"=>nil}>
 ```
 
 There are some important things to notice in the above example:
@@ -124,7 +124,7 @@ Once you have a row's worth of data in hand, you can drill down to a specific at
 
 ``` ruby
 mystery_book = Book.find_by(title: "Sherlock Holmes")
-mystery_book.title
+mystery_book.author
 ```
 
 **Is 'Sherlock Holmes' in paperback or hardcover?**
