@@ -14,7 +14,7 @@ To implement a one-to-many association:
 1. Identify which model is the "one" and which model is the "many".
 1. The model at the "many" end needs a **foreign key column** to associate it to the "one" owner.
 
-**Be sure to stick to Rails naming conventions.** Refer to [How To: Start Domain Modeling](<%= workbook_path('domain_modeling')%>) for details.
+**Be sure to stick to Rails naming conventions.** Refer to [How To: Start Domain Modeling](../domain_modeling) for details.
 
 ```
 Album:
