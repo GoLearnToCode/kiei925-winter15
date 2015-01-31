@@ -19,7 +19,7 @@ It turns out that, in practice, there are exactly seven things we need to build 
 * An *update* action that actually updates the movie based on user input
 * A *destroy* action that deletes an existing movie
 
-|Action  |HTTP Method/Verb|URL|
+|Action  |HTTP Method/Verb|URL            |
 |--------|----------------|---------------|
 |index   |GET             |/movies        |
 |show    |GET             |/movies/1      |
@@ -28,3 +28,17 @@ It turns out that, in practice, there are exactly seven things we need to build 
 |edit    |GET             |/movies/1/edit |
 |update  |PATCH           |/movies/1      |
 |destroy |DELETE          |/movies/1      |
+
+We can support all seven of these actions in our Rails application with just one line of code!
+
+In ```routes.rb```,
+
+```
+resources :movies
+```
+
+Prove that it worked, by entering at the command prompt:
+
+```
+rake routes
+```
