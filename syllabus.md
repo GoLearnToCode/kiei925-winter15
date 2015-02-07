@@ -26,7 +26,7 @@ Students must own or have access to a modern computer that is capable of running
 Students must build a project of their choosing throughout the quarter as their final project. Students are encouraged to work in groups for all assignments including the final project, but each student must turn in their own project code that they developed themselves.
 
 - **Homework will be worth 60% of your grade** – 6 homework assignments @ 10% each
-- There will be a **mid-term exam with 15%**
+- There will be a **mid-term exam with 15%** (week 6)
 - The **final project is worth 25%**
 
 ### Calendar
