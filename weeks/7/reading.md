@@ -1,0 +1,1 @@
+* [Rails Guides: Validations](http://guides.rubyonrails.org/active_record_validations.html)
